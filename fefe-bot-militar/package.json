@@ -1,0 +1,18 @@
+{
+  "name": "fefe-bot-militar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Starter bot for Roblox group rank -> Discord role sync",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "register": "node src/register-commands.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
